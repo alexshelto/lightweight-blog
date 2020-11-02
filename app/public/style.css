@@ -1,0 +1,44 @@
+
+body {
+  padding:2em 5%;
+  font-family: "Courier New", Courier, monospace;
+  /* font-family: Verdana, Geneva, sans-serif; */
+}
+
+
+.flexbox {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap: nowrap; 
+  flex-direction: column; /* might not need */
+
+}
+
+.flexbox .post-item {
+  padding:1em;
+}
+
+.post-item {
+  list-style-type: none;
+}
+
+.post-link {
+  background-color: transparent;
+  color: #337ab7;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.post-link:hover {
+  text-decoration: underline;
+  color: #1db397;
+}
+.post-meta {
+  font-size: 14px;
+  color: #828282;
+}
+
+h1 {
+  text-align: center;
+}
